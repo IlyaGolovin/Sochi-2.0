@@ -1,0 +1,16 @@
+/* Key Frames Styles */
+@keyframes spin {
+	0% {transform: rotate(0deg);}
+	100% {transform: rotate(360deg);}
+}
+
+span {
+	animation: spin 20s linear infinite;
+}
+
+span:hover {
+	color: red;
+	font-size: 1.1em;
+	letter-spacing: 0.1em;
+	text-shadow: rgba(0, 0, 0, 0.5) 15px -3px 8px;
+}
